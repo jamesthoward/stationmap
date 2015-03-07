@@ -19,6 +19,9 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+	
+	<!-- Google Fonts CDN import -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -29,7 +32,7 @@ AppAsset::register($this);
                 'brandLabel' => 'StationMap',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
-                    'class' => 'navbar-inverse navbar-fixed-top',
+                    'class' => 'navbar navbar-fixed-top',
                 ],
             ]);
             echo Nav::widget([

@@ -1,0 +1,43 @@
+/* ---- Main HTML Elements ---- */
+body {
+	font-family: 'Open Sans';
+}
+
+/* ---- Main StationMap Elements ---- */
+#googlemaps {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 0;
+}
+
+.card {
+	position: relative;
+	z-index: 1;
+	height: auto;
+	padding: 10px;
+	background: white;
+}
+
+/* ---- Navigation Menu ---- */
+.navbar li {
+	background: none;
+}
+
+.navbar li.active {
+	background: #f5f5f5;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: inherit;
+	background: none;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+	color: inherit;
+	background: #f5f5f5 !important;
+}
